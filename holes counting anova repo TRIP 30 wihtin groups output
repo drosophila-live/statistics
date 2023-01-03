@@ -1,0 +1,45 @@
+ource('~/.active-rstudio-document')
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesND42 ~ conditionND42, data = anovarepo)
+
+$conditionND42
+          diff        lwr      upr     p adj
+LD-DD 2.736842  0.3844282 5.089256 0.0191435
+LL-DD 4.727273  1.9901622 7.464383 0.0003768
+LL-LD 1.990431 -0.7192207 4.700082 0.1877197
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holeskl3 ~ conditionkl3, data = anovarepo)
+
+$conditionkl3
+           diff        lwr        upr     p adj
+LD-DD  4.405594  -3.029709 11.8408977 0.3244728
+LL-DD -4.130769 -11.764790  3.5032513 0.3887428
+LL-LD -8.536364 -16.466386 -0.6063417 0.0327605
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesG6TRIP ~ conditionG6TRIP, data = anovarepo)
+
+$conditionG6TRIP
+           diff       lwr       upr     p adj
+LD-DD -1.600000 -9.987864  6.787864 0.8869426
+LL-DD  5.666667 -3.130599 14.463933 0.2685898
+LL-LD  7.266667 -0.690760 15.224093 0.0791293
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesPgdTRIP ~ conditionPgdTRIP, data = anovarepo)
+
+$conditionPgdTRIP
+           diff        lwr       upr     p adj
+LD-DD 12.000000   2.588516 21.411484 0.0097424
+LL-DD  7.368132  -1.873762 16.610026 0.1400775
+LL-LD -4.631868 -13.873762  4.610026 0.4470320
+

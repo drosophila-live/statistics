@@ -1,0 +1,29 @@
+source('~/.active-rstudio-document')
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesnormal ~ genotypenormal, data = anovarepo)
+
+$genotypenormal
+                    diff       lwr       upr     p adj
+kl-3-G6TRIP    -2.933333 -7.527452  1.660785 0.3371884
+ND42-G6TRIP    -1.483333 -5.527723  2.561057 0.7654032
+PgdTRIP-G6TRIP  6.079167  2.034777 10.123557 0.0011503
+ND42-kl-3       1.450000 -3.086328  5.986328 0.8313127
+PgdTRIP-kl-3    9.012500  4.476172 13.548828 0.0000149
+PgdTRIP-ND42    7.562500  3.583877 11.541123 0.0000334
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesAO ~ genotypeAO, data = anovarepo)
+
+$genotypeAO
+                    diff        lwr      upr     p adj
+kl-3-G6TRIP     0.500000 -3.5279614 4.527961 0.9875428
+ND42-G6TRIP    -2.276786 -6.4461219 1.892550 0.4754758
+PgdTRIP-G6TRIP  2.573864 -1.8884063 7.036134 0.4272032
+ND42-kl-3      -2.776786 -6.9461219 1.392550 0.3006794
+PgdTRIP-kl-3    2.073864 -2.3884063 6.536134 0.6091156
+PgdTRIP-ND42    4.850649  0.2603613 9.440937 0.0345439
+

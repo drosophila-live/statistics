@@ -1,0 +1,65 @@
+Wilcoxon rank sum test with continuity correction
+kl-3 -ND42  normal
+data:  repo_TRIP[, 3] and repo_TRIP[, 1]
+W = 369, p-value = 0.9444
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(repo_TRIP[, 3], repo_TRIP[, 1], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(repo_TRIP[,3],repo_TRIP[,5],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -G6TRIP  normal
+data:  repo_TRIP[, 3] and repo_TRIP[, 5]
+W = 359, p-value = 0.9305
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(repo_TRIP[, 3], repo_TRIP[, 5], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(repo_TRIP[,3],repo_TRIP[,7],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -PgdTRIP  normal
+data:  repo_TRIP[, 3] and repo_TRIP[, 7]
+W = 340, p-value = 0.6756
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(repo_TRIP[, 3], repo_TRIP[, 7], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(repo_TRIP[,4],repo_TRIP[,2],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -ND42  AO
+data:  repo_TRIP[, 4] and repo_TRIP[, 2]
+W = 342.5, p-value = 0.7076
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(repo_TRIP[, 4], repo_TRIP[, 2], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(repo_TRIP[,4],repo_TRIP[,6],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -G6TRIP  AO
+data:  repo_TRIP[, 4] and repo_TRIP[, 6]
+W = 353, p-value = 0.8476
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(repo_TRIP[, 4], repo_TRIP[, 6], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(repo_TRIP[,4],repo_TRIP[,8],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -PgdTRIP  AO
+data:  repo_TRIP[, 4] and repo_TRIP[, 8]
+W = 392, p-value = 0.6378
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(repo_TRIP[, 4], repo_TRIP[, 8], paired = F) :
+  cannot compute exact p-value with ties
+> 

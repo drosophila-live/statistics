@@ -1,0 +1,67 @@
+wilcox.test(elav_TRIP[,3],elav_TRIP[,1],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -ND42  normal
+data:  elav_TRIP[, 3] and elav_TRIP[, 1]
+W = 261, p-value = 0.8647
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(elav_TRIP[, 3], elav_TRIP[, 1], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(elav_TRIP[,3],elav_TRIP[,5],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -G6TRIP  normal
+data:  elav_TRIP[, 3] and elav_TRIP[, 5]
+W = 214, p-value = 0.3814
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(elav_TRIP[, 3], elav_TRIP[, 5], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(elav_TRIP[,3],elav_TRIP[,7],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -PgdTRIP  normal
+data:  elav_TRIP[, 3] and elav_TRIP[, 7]
+W = 286, p-value = 0.3066
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(elav_TRIP[, 3], elav_TRIP[, 7], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(elav_TRIP[,4],elav_TRIP[,2],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -ND42 AO
+data:  elav_TRIP[, 4] and elav_TRIP[, 2]
+W = 232, p-value = 0.7717
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(elav_TRIP[, 4], elav_TRIP[, 2], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(elav_TRIP[,4],elav_TRIP[,6],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -G6TRIP AO
+data:  elav_TRIP[, 4] and elav_TRIP[, 6]
+W = 254, p-value = 0.5661
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(elav_TRIP[, 4], elav_TRIP[, 6], paired = F) :
+  cannot compute exact p-value with ties
+> wilcox.test(elav_TRIP[,4],elav_TRIP[,8],paired=F)
+
+	Wilcoxon rank sum test with continuity correction
+kl-3 -PgdTRIP AO
+data:  elav_TRIP[, 4] and elav_TRIP[, 8]
+W = 297, p-value = 0.4117
+alternative hypothesis: true location shift is not equal to 0
+
+Warning message:
+In wilcox.test.default(elav_TRIP[, 4], elav_TRIP[, 8], paired = F) :
+  cannot compute exact p-value with ties
+> 

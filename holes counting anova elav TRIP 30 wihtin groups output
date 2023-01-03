@@ -1,0 +1,43 @@
+Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesND42 ~ conditionND42, data = anovaelav)
+
+$conditionND42
+           diff       lwr       upr     p adj
+LD-DD -0.947619 -5.559846  3.664608 0.8707181
+LL-DD  6.366667  1.299728 11.433606 0.0110075
+LL-LD  7.314286  2.175472 12.453100 0.0037283
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holeskl3 ~ conditionkl3, data = anovaelav)
+
+$conditionkl3
+            diff        lwr      upr     p adj
+LD-DD -0.1444444 -4.3399448 4.051056 0.9960076
+LL-DD  4.8000000  0.8902505 8.709750 0.0137331
+LL-LD  4.9444444  0.9179603 8.970929 0.0137102
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesG6TRIP ~ conditionG6TRIP, data = anovaelav)
+
+$conditionG6TRIP
+            diff       lwr       upr     p adj
+LD-DD  6.2500000 -1.653723 14.153723 0.1447539
+LL-DD  5.8653846 -2.526423 14.257192 0.2169624
+LL-LD -0.3846154 -8.108083  7.338852 0.9919195
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesPgdTRIP ~ conditionPgdTRIP, data = anovaelav)
+
+$conditionPgdTRIP
+            diff       lwr       upr     p adj
+LD-DD -0.4912281 -5.510369  4.527913 0.9693360
+LL-DD  9.4849624  4.690586 14.279338 0.0000583
+LL-LD  9.9761905  4.621332 15.331049 0.0001421

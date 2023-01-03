@@ -1,0 +1,116 @@
+t.test(data[,1],data[,2],alternative=c("two.sided"))
+
+	Welch Two Sample t-test
+
+data:  data[, 1] and data[, 2]
+t = 1.5758, df = 28.558, p-value = 0.1261
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.220283  9.388351
+sample estimates:
+mean of x mean of y 
+ 14.94118  10.85714 
+
+> t.test(data[,1],data[,2],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 1] and data[, 2]
+t = 1.5758, df = 28.558, p-value = 0.06305
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.3219498        Inf
+sample estimates:
+mean of x mean of y 
+ 14.94118  10.85714 
+
+> t.test(data[,3],data[,4],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 3] and data[, 4]
+t = 1.4888, df = 27.733, p-value = 0.07391
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.2093533        Inf
+sample estimates:
+mean of x mean of y 
+ 6.250000  4.785714 
+
+> t.test(data[,5],data[,6],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 5] and data[, 6]
+t = 0.1739, df = 25.827, p-value = 0.4317
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -1.887987       Inf
+sample estimates:
+mean of x mean of y 
+ 7.500000  7.285714 
+
+> t.test(data[,7],data[,8],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 7] and data[, 8]
+t = -1.5205, df = 23.442, p-value = 0.9291
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -5.873845       Inf
+sample estimates:
+mean of x mean of y 
+   4.8000    7.5625 
+
+> t.test(data[,9],data[,10],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 9] and data[, 10]
+t = 1.7874, df = 29.158, p-value = 0.04214
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1595301       Inf
+sample estimates:
+mean of x mean of y 
+ 13.86667  10.64706 
+
+> t.test(data[,11],data[,12],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 11] and data[, 12]
+t = 0.42387, df = 28.495, p-value = 0.3374
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -2.019863       Inf
+sample estimates:
+mean of x mean of y 
+ 7.733333  7.062500 
+
+> t.test(data[,13],data[,14],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 13] and data[, 14]
+t = 3.0614, df = 16.079, p-value = 0.003713
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4.655895      Inf
+sample estimates:
+mean of x mean of y 
+ 21.23077  10.40000 
+
+> t.test(data[,15],data[,16],alternative=c("greater"))
+
+	Welch Two Sample t-test
+
+data:  data[, 15] and data[, 16]
+t = 2.4318, df = 24.183, p-value = 0.0114
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 1.238885      Inf
+sample estimates:
+mean of x mean of y 
+13.812500  9.636364 

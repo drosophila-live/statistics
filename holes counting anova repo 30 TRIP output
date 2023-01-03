@@ -1,0 +1,42 @@
+> source('~/Desktop/holes counting/TRIP/repo anova.R')
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesLD ~ genotypeLD, data = anovarepo)
+
+$genotypeLD
+                diff         lwr        upr     p adj
+kl3-G6Pdh   4.236364  -4.1471729 12.6199002 0.5422611
+ND42-G6Pdh -3.663158 -10.9577261  3.6314103 0.5474519
+Pgd-G6Pdh   8.446154   0.4433113 16.4489964 0.0348332
+ND42-kl3   -7.899522 -15.9009964  0.1019533 0.0542097
+Pgd-kl3     4.209790  -4.4422826 12.8618630 0.5733136
+Pgd-ND42   12.109312   4.5076407 19.7109828 0.0005273
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesLL ~ genotypeLL, data = anovarepo)
+
+$genotypeLL
+                 diff        lwr        upr     p adj
+kl3-G6Pdh  -11.566667 -21.499454 -1.6338791 0.0167429
+ND42-G6Pdh  -8.939394 -18.622783  0.7439951 0.0797531
+Pgd-G6Pdh   -3.452381 -12.578423  5.6736610 0.7439102
+ND42-kl3     2.627273  -7.508660 12.7632058 0.8993235
+Pgd-kl3      8.114286  -1.490596 17.7191677 0.1242431
+Pgd-ND42     5.487013  -3.859725 14.8337511 0.4067731
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesDD ~ genotypeDD, data = anovarepo)
+
+$genotypeDD
+                diff        lwr        upr     p adj
+kl3-G6Pdh  -1.769231  -7.613316  4.0748548 0.8522301
+ND42-G6Pdh -8.000000 -13.479830 -2.5201700 0.0016783
+Pgd-G6Pdh  -5.500000 -11.252623  0.2526231 0.0657516
+ND42-kl3   -6.230769 -11.287819 -1.1737193 0.0100396
+Pgd-kl3    -3.730769  -9.082207  1.6206689 0.2617657
+Pgd-ND42    2.500000  -2.451070  7.4510697 0.5416028

@@ -1,0 +1,41 @@
+Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesLD ~ genotypeLD, data = anovarepo)
+
+$genotypeLD
+                  diff       lwr       upr     p adj
+kl-5-G6KK  -0.92380952 -3.452905 1.6052856 0.7693323
+ND75-G6KK  -0.85714286 -3.438390 1.7241040 0.8162559
+PgdKK-G6KK -1.93406593 -4.574208 0.7060763 0.2240807
+ND75-kl-5   0.06666667 -2.713421 2.8467547 0.9999075
+PgdKK-kl-5 -1.01025641 -3.845112 1.8245989 0.7823072
+PgdKK-ND75 -1.07692308 -3.958402 1.8045554 0.7567518
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesLL ~ genotypeLL, data = anovarepo)
+
+$genotypeLL
+                  diff         lwr         upr     p adj
+kl-5-G6KK  -12.4464286 -20.4590819  -4.4337752 0.0006408
+ND75-G6KK  -19.7030075 -27.4148098 -11.9912052 0.0000000
+PgdKK-G6KK -12.9603175 -20.1711559  -5.7494790 0.0000641
+ND75-kl-5   -7.2565789 -14.6856920   0.1725341 0.0580346
+PgdKK-kl-5  -0.5138889  -7.4215670   6.3937892 0.9973220
+PgdKK-ND75   6.7426901   0.1863727  13.2990075 0.0414848
+
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = holesDD ~ genotypeDD, data = anovarepo)
+
+$genotypeDD
+                diff        lwr         upr     p adj
+kl-5-G6KK  -5.366667 -10.681531 -0.05180244 0.0469638
+ND75-G6KK  -4.147368  -8.887207  0.59247040 0.1064300
+PgdKK-G6KK -1.600000  -6.610902  3.41090204 0.8327041
+ND75-kl-5   1.219298  -3.840812  6.27940837 0.9193682
+PgdKK-kl-5  3.766667  -1.548198  9.08153089 0.2499551
+PgdKK-ND75  2.547368  -2.192470  7.28720724 0.4909067
